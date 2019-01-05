@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="autolayout" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bOe-4k-PPR">
+                                <rect key="frame" x="30" y="49" width="46" height="30"/>
+                                <state key="normal" title="Button"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Amh-Qp-qGQ">
+                                <rect key="frame" x="19" y="328.5" width="46" height="30"/>
+                                <state key="normal" title="Button"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5QF-Xh-cAs">
+                                <rect key="frame" x="164.5" y="626" width="46" height="30"/>
+                                <state key="normal" title="Button"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KI3-PD-BiR">
+                                <rect key="frame" x="19" y="626" width="46" height="30"/>
+                                <state key="normal" title="Button"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NIZ-4X-JH0">
+                                <rect key="frame" x="313" y="626" width="46" height="30"/>
+                                <state key="normal" title="Button"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="g7I-yg-RAd">
+                                <rect key="frame" x="313" y="328" width="46" height="30"/>
+                                <state key="normal" title="Button"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="j16-Pf-QS1">
+                                <rect key="frame" x="164" y="49" width="46" height="30"/>
+                                <state key="normal" title="Button"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aaU-AR-rKL">
+                                <rect key="frame" x="313" y="49" width="46" height="30"/>
+                                <state key="normal" title="Button"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="y6S-oO-gjO">
+                                <rect key="frame" x="164" y="328" width="46" height="30"/>
+                                <state key="normal" title="Button"/>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="KI3-PD-BiR" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="19" id="0XE-12-JIN"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="NIZ-4X-JH0" secondAttribute="bottom" constant="11" id="0dZ-46-hs8"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="g7I-yg-RAd" secondAttribute="trailing" constant="16" id="2OK-Gu-S4t"/>
+                            <constraint firstItem="j16-Pf-QS1" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="29" id="5j9-M2-I5U"/>
+                            <constraint firstItem="bOe-4k-PPR" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="29" id="BpK-9o-tbc"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="NIZ-4X-JH0" secondAttribute="trailing" constant="16" id="Gao-3k-8YO"/>
+                            <constraint firstItem="y6S-oO-gjO" firstAttribute="centerY" secondItem="6Tk-OE-BBY" secondAttribute="centerY" id="PEQ-fF-L4W"/>
+                            <constraint firstItem="bOe-4k-PPR" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="30" id="STd-iN-en6"/>
+                            <constraint firstItem="j16-Pf-QS1" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="bTG-2Q-FtN"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="5QF-Xh-cAs" secondAttribute="bottom" constant="11" id="daf-iw-UPu"/>
+                            <constraint firstItem="Amh-Qp-qGQ" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="19" id="eWF-Ib-aV0"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="aaU-AR-rKL" secondAttribute="trailing" constant="16" id="j7m-Dh-nyU"/>
+                            <constraint firstItem="y6S-oO-gjO" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="jSX-hx-HNW"/>
+                            <constraint firstItem="5QF-Xh-cAs" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="p9E-lI-Ms2"/>
+                            <constraint firstItem="g7I-yg-RAd" firstAttribute="centerY" secondItem="6Tk-OE-BBY" secondAttribute="centerY" id="tR6-ue-uUJ"/>
+                            <constraint firstItem="aaU-AR-rKL" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="29" id="uCs-na-UZy"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="KI3-PD-BiR" secondAttribute="bottom" constant="11" id="ye1-cE-4Hd"/>
+                            <constraint firstItem="Amh-Qp-qGQ" firstAttribute="centerY" secondItem="6Tk-OE-BBY" secondAttribute="centerY" id="zWE-QT-jMO"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="136.80000000000001" y="132.68365817091455"/>
+        </scene>
+    </scenes>
+</document>
